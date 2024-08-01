@@ -14,8 +14,11 @@ public class Timer: MonoBehaviour
     public event Action TimerEnded;
     public event Action Grow;
 
+
     public TextMeshPro text;
 
+
+    public bool FinishGrowing { get; private set; }
     public void Initialize(float time_start)
     {
         _time_start = time_start;
@@ -49,6 +52,7 @@ public class Timer: MonoBehaviour
 
     public void TimeEnded()
     {
+        FinishGrowing = true;
         TimerEnded?.Invoke();
     }
 

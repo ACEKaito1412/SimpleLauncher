@@ -8,10 +8,13 @@ using UnityEngine.EventSystems;
 
 public class PlayerMovement : MonoBehaviour
 {
+    public GameHandler GameHandler;
     public GameObject Panel_Plant_Info;
+    public GameObject PanelInventory;
     public GameObject PlantBtn;
     public GameObject PlowBtn;
     public GameObject RemoveBtn;
+    
     public float movementSpeed = 5f;
     public LayerMask Plant_Area;
 
@@ -19,32 +22,43 @@ public class PlayerMovement : MonoBehaviour
     private Vector3 movepoint;
     private bool isMoving = false;
 
-    private Utils utils;
-    private Animator animator;
-    private PlantArea plantArea;
+    private Utils _utils;
+    private Animator _animator;
+    private PlantArea _plantArea;
+    private Timer _timer;
+    private List<InventoryItem> _inventory;
     void Start()
     {
+        _inventory = GameHandler.Inventory;
+        _animator = transform.GetComponent<Animator>();
+        _utils = new Utils();
+
         horizontalInput = 1f;
-        animator = transform.GetComponent<Animator>();
-        utils = new Utils();
     }
 
     // Update is called once per frame
     void Update()
     {
-        if(isMoving){
+
+
+        if (isMoving){
             transform.position = Vector3.MoveTowards(transform.position, movepoint, movementSpeed * Time.deltaTime);
             isMoving = false;
-            animator.SetBool("walk", false);
+            _animator.SetBool("walk", false);
         }
 
-        if (utils.createBoxCast(transform, new Vector2(0.5f, 0.1f), 0.09f * horizontalInput, 0.06f, Plant_Area))
+        if (_utils.createBoxCast(transform, new Vector2(0.5f, 0.1f), 0.09f * horizontalInput, 0.06f, Plant_Area))
         {
-            Testing testing = utils.ObjectReference.GetComponent<Testing>();
+            SoilHandler soilHandler = _utils.ObjectReference.GetComponent<SoilHandler>();
             
-            plantArea = testing.plantArea;
+            _plantArea = soilHandler.plantArea;
 
-            if(plantArea.Status == WORLD.PA_NEEDS_PREPARATION)
+            if (_plantArea.PlantObjectReference != null)
+            {
+                _timer = _plantArea.PlantObjectReference.GetComponent<Timer>();
+            }
+
+            if (_plantArea.Status == WORLD.PA_NEEDS_PREPARATION)
             {
                 PlowBtn.SetActive(true);
             }
@@ -53,18 +67,19 @@ public class PlayerMovement : MonoBehaviour
                 PlowBtn.SetActive(false);
             }
             
-            if(plantArea.Status == WORLD.PA_PLANTABLE)
+            if(_plantArea.Status == WORLD.PA_PLANTABLE)
             {
                 PlantBtn.SetActive(true);
-                animator.SetBool("plow", false);
+                _animator.SetBool("plow", false);
             }
             else
             {
                 PlantBtn.SetActive(false);
             }
 
-            if (plantArea.Status == WORLD.PA_PLANTED)
+            if (_plantArea.Status == WORLD.PA_PLANTED)
             {
+                
                 RemoveBtn.SetActive(true);
             }
             else
@@ -81,7 +96,7 @@ public class PlayerMovement : MonoBehaviour
     }
 
     private void Move(Vector2 position){
-        animator.SetBool("walk", true);
+        _animator.SetBool("walk", true);
         isMoving = true;
         movepoint = new Vector3(transform.position.x + position.x, transform.position.y + position.y, transform.position.z);
     }
@@ -105,7 +120,7 @@ public class PlayerMovement : MonoBehaviour
 
     public void BtnPlowClick()
     {
-        animator.SetBool("plow", true);
+        _animator.SetBool("plow", true);
         StartCoroutine(ChangeStatusAfterDelay(3f, WORLD.PA_PLANTABLE)); 
         PlowBtn.SetActive(false);
     }
@@ -123,10 +138,16 @@ public class PlayerMovement : MonoBehaviour
 
     public void BtnRemoveClick()
     {
-        RemoveBtn.SetActive(false);
-        Destroy(plantArea.PlantObjectReference);
-        plantArea = new PlantArea();
+        if (_timer != null && _timer.FinishGrowing)
+        {
+            _inventory.Add(new InventoryItem(_plantArea.PlantPrep.Plant.ItemToGet, _plantArea.PlantPrep.Plant.ItemQuantity));
+        }
+
         PlantAreaReset();
+        RemoveBtn.SetActive(false);
+        Destroy(_plantArea.PlantObjectReference);
+        _plantArea = new PlantArea();
+        
     }
 
     public void PlantAreaReset()
@@ -137,7 +158,7 @@ public class PlayerMovement : MonoBehaviour
     private IEnumerator ChangeStatusAfterDelay(float delay, int newStatus)
     {
         yield return new WaitForSeconds(delay);
-        plantArea.Status = newStatus;
+        _plantArea.Status = newStatus;
     }
 
 
@@ -150,39 +171,39 @@ public class PlayerMovement : MonoBehaviour
         switch (name)
         {
             case "Sunflower":
-                plantArea.Plant = plant;
+                _plantArea.PlantPrep = plant;
                 StartCoroutine(ChangeStatusAfterDelay(1f, WORLD.PA_PLANTED));
                 break;
             case "Potato":
-                plantArea.Plant = plant;
+                _plantArea.PlantPrep = plant;
                 StartCoroutine(ChangeStatusAfterDelay(1f, WORLD.PA_PLANTED));
                 break;
             case "Carrot":
-                plantArea.Plant = plant;
+                _plantArea.PlantPrep = plant;
                 StartCoroutine(ChangeStatusAfterDelay(1f, WORLD.PA_PLANTED));
                 break;
             case "Pumpkin":
-                plantArea.Plant = plant;
+                _plantArea.PlantPrep = plant;
                 StartCoroutine(ChangeStatusAfterDelay(1f, WORLD.PA_PLANTED));
                 break;
             case "Beetroot":
-                plantArea.Plant = plant;
+                _plantArea.PlantPrep = plant;
                 StartCoroutine(ChangeStatusAfterDelay(1f, WORLD.PA_PLANTED));
                 break;
             case "Cauliflower":
-                plantArea.Plant = plant;
+                _plantArea.PlantPrep = plant;
                 StartCoroutine(ChangeStatusAfterDelay(1f, WORLD.PA_PLANTED));
                 break;
             case "Parsnip":
-                plantArea.Plant = plant;
+                _plantArea.PlantPrep = plant;
                 StartCoroutine(ChangeStatusAfterDelay(1f, WORLD.PA_PLANTED));
                 break;
             case "Radish":
-                plantArea.Plant = plant;
+                _plantArea.PlantPrep = plant;
                 StartCoroutine(ChangeStatusAfterDelay(1f, WORLD.PA_PLANTED));
                 break;
             case "Wheat":
-                plantArea.Plant = plant;
+                _plantArea.PlantPrep = plant;
                 StartCoroutine(ChangeStatusAfterDelay(1f, WORLD.PA_PLANTED));
                 break;
             default:
@@ -193,5 +214,13 @@ public class PlayerMovement : MonoBehaviour
         BtnExitClick();
     }
 
+    public void BtnInventoryClick()
+    {
+        PanelInventory.SetActive(true);
+    }
 
+    public void BtnInventoryExitClick()
+    {
+        PanelInventory.SetActive(false);
+    }
 }

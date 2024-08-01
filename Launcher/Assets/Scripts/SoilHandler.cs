@@ -6,7 +6,7 @@ using UnityEngine.EventSystems;
 using System;
 using Unity.VisualScripting;
 using TMPro;
-public class Testing : MonoBehaviour
+public class SoilHandler : MonoBehaviour
 {
     public Sprite sprite_needs_preparation;
     public Sprite sprite_plowed;
@@ -39,7 +39,7 @@ public class Testing : MonoBehaviour
                 newPlantObject.transform.SetParent(transform, false);
 
                 SpriteRenderer plantSpriteRenderer = newPlantObject.GetComponent<SpriteRenderer>();
-                PlantPrep plantPrep = plantArea.Plant;
+                PlantPrep plantPrep = plantArea.PlantPrep;
                 plantSpriteRenderer.sprite = plantPrep.seed_0;
                 plantArea.PlantObjectReference = newPlantObject;
 
@@ -80,13 +80,13 @@ public class Testing : MonoBehaviour
 
         switch (currentSprite) {
             case 1:
-                spriteRenderer.sprite = plantArea.Plant.seed_1;
+                spriteRenderer.sprite = plantArea.PlantPrep.seed_1;
                 break;
             case 2:
-                spriteRenderer.sprite = plantArea.Plant.seed_2;
+                spriteRenderer.sprite = plantArea.PlantPrep.seed_2;
                 break;
             case 3:
-                spriteRenderer.sprite = plantArea.Plant.seed_3;
+                spriteRenderer.sprite = plantArea.PlantPrep.seed_3;
                 break;
             default:
                 break;
@@ -96,7 +96,7 @@ public class Testing : MonoBehaviour
 
     private void PlantIsRiped(SpriteRenderer spriteRenderer)
     {
-        spriteRenderer.sprite = plantArea.Plant.seed_4;
+        spriteRenderer.sprite = plantArea.PlantPrep.seed_4;
     }
 
 }

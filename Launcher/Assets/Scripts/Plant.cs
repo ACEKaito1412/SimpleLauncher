@@ -12,11 +12,17 @@ namespace Assets.Scripts
         public int Status { get; set; }
         public float TimeToRipe { get; set; }
 
-        public Plant(string type, float timeToRipe)
+        public Item ItemToGet { get; set; }
+
+        public int ItemQuantity { get; set; }
+
+        public Plant(string type, float timeToRipe, Item itemToGet, int quantity = 1)
         {
             Type = type;
             TimeToRipe = timeToRipe;
             Status = WORLD.PLANT_NOT_RIPE;
+            ItemToGet = itemToGet;
+            ItemQuantity = quantity;
         }
     }
 }

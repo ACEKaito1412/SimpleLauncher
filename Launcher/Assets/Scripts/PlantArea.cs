@@ -11,7 +11,8 @@ namespace Assets.Scripts
     {
         public int Status { get; set; }
 
-        public PlantPrep Plant { get; set; }
+        public PlantPrep PlantPrep { get; set; }
+
 
         public GameObject PlantObjectReference { get; set; }
 
