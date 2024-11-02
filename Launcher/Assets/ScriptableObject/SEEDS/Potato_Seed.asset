@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ae9a929ba619cb84bbd9e8e383db2e10, type: 3}
+  m_Name: Potato_Seed
+  m_EditorClassIdentifier: 
+  ID: 1
+  Name: Potato Seed
+  Type: 1
+  Description: Plant it to grow potatoes.
+  Icon: {fileID: 21300000, guid: 26e175308a17d1041bba82296ee8742f, type: 3}
+  Sell_Price: 1
+  Buy_Price: 2
+  Sprites:
+  - spr_0: {fileID: 21300000, guid: 26e175308a17d1041bba82296ee8742f, type: 3}
+    spr_1: {fileID: 21300000, guid: d1b3c1c13a4581c42a3c1c2267494a76, type: 3}
+    spr_2: {fileID: 21300000, guid: 73f8dfe959d6b0d478a24652637268d8, type: 3}
+    spr_3: {fileID: 21300000, guid: 00f91c6aaa7513041a5cea88832a770a, type: 3}
+    spr_4: {fileID: 21300000, guid: c7cba77db8d39ad408beef8d286b5e43, type: 3}
+    spr_5: {fileID: 21300000, guid: 279209a4fc8a40f4d96391a559f8d208, type: 3}
+  Duration: 120
+  Plant_Scriptable: {fileID: 11400000, guid: f431e1e30588318438d7f429770036f3, type: 2}
+  Quantity: 3

@@ -1,0 +1,1102 @@
+fileFormatVersion: 2
+guid: 5e2979acb3c5b3940ad232c754dcf3b9
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 8360822583929146134
+    second: small houses_0
+  - first:
+      213: 425523432762231699
+    second: small houses_1
+  - first:
+      213: 3496490640350925859
+    second: small houses_2
+  - first:
+      213: -7313236153421629960
+    second: small houses_3
+  - first:
+      213: -2274235966970486913
+    second: small houses_4
+  - first:
+      213: -4123274442598227585
+    second: small houses_5
+  - first:
+      213: 6772772143719941309
+    second: small houses_6
+  - first:
+      213: -137451844550421559
+    second: small houses_7
+  - first:
+      213: 3914145599174164737
+    second: small houses_8
+  - first:
+      213: -904552231627255837
+    second: small houses_9
+  - first:
+      213: -225117634861708226
+    second: small houses_10
+  - first:
+      213: -2163477927127046605
+    second: small houses_11
+  - first:
+      213: 7025080892340018017
+    second: small houses_12
+  - first:
+      213: 3128631409880628911
+    second: small houses_13
+  - first:
+      213: 5808499510455090902
+    second: small houses_14
+  - first:
+      213: -6195594746658620310
+    second: small houses_15
+  - first:
+      213: -7274309994814429074
+    second: small houses_16
+  - first:
+      213: 8678025216722991486
+    second: small houses_17
+  - first:
+      213: 3128944499262193212
+    second: small houses_18
+  - first:
+      213: -870049820203473376
+    second: small houses_19
+  - first:
+      213: 4152071054049906452
+    second: small houses_20
+  - first:
+      213: -3876757538847917973
+    second: small houses_21
+  - first:
+      213: 1145017954772594231
+    second: small houses_22
+  - first:
+      213: 2019860596357158839
+    second: small houses_23
+  - first:
+      213: -4928859464396121719
+    second: small houses_24
+  - first:
+      213: 3922785649952710920
+    second: small houses_25
+  - first:
+      213: -1718386498699359366
+    second: small houses_26
+  - first:
+      213: -8659577834369849264
+    second: small houses_27
+  - first:
+      213: -7833276200073594855
+    second: small houses_28
+  - first:
+      213: 364118932629147977
+    second: small houses_29
+  - first:
+      213: 5430745208686428817
+    second: small houses_30
+  - first:
+      213: 1593033986441063516
+    second: small houses_31
+  - first:
+      213: 4689382088557080497
+    second: small houses_32
+  - first:
+      213: 2245296031308738798
+    second: small houses_33
+  - first:
+      213: -2675307284778565660
+    second: small houses_34
+  - first:
+      213: 5059548775963750076
+    second: small houses_35
+  - first:
+      213: 5589497773053622599
+    second: small houses_36
+  - first:
+      213: 6684129301094624615
+    second: small houses_37
+  - first:
+      213: -5071915266605242430
+    second: small houses_38
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: small houses_0
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 387
+        width: 72
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 61b0921b7db970470800000000000000
+      internalID: 8360822583929146134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: small houses_1
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 387
+        width: 73
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 39bc56dbe43c7e500800000000000000
+      internalID: 425523432762231699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: small houses_2
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 387
+        width: 72
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 324589256b7068030800000000000000
+      internalID: 3496490640350925859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: small houses_3
+      rect:
+        serializedVersion: 2
+        x: 316
+        y: 387
+        width: 72
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f572c4377a228a90800000000000000
+      internalID: -7313236153421629960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: small houses_4
+      rect:
+        serializedVersion: 2
+        x: 428
+        y: 387
+        width: 72
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f7f9e4dff6a4070e0800000000000000
+      internalID: -2274235966970486913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: small houses_5
+      rect:
+        serializedVersion: 2
+        x: 524
+        y: 387
+        width: 73
+        height: 101
+      alignment: 9
+      pivot: {x: 0.49741143, y: 0.07637281}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f716c719dbf27c6c0800000000000000
+      internalID: -4123274442598227585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: small houses_6
+      rect:
+        serializedVersion: 2
+        x: 620
+        y: 387
+        width: 72
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db4861b8168bdfd50800000000000000
+      internalID: 6772772143719941309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: small houses_7
+      rect:
+        serializedVersion: 2
+        x: 716
+        y: 387
+        width: 72
+        height: 101
+      alignment: 9
+      pivot: {x: 0.49099648, y: 0.08226421}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c399df864ca71ef0800000000000000
+      internalID: -137451844550421559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: small houses_8
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 275
+        width: 72
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1014fe53fa6d15630800000000000000
+      internalID: 3914145599174164737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: small houses_9
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 275
+        width: 72
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ef0211b9826273f0800000000000000
+      internalID: -904552231627255837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: small houses_10
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 275
+        width: 72
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e3c446d24b830ecf0800000000000000
+      internalID: -225117634861708226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: small houses_11
+      rect:
+        serializedVersion: 2
+        x: 316
+        y: 275
+        width: 72
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 336a132b948c9f1e0800000000000000
+      internalID: -2163477927127046605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: small houses_12
+      rect:
+        serializedVersion: 2
+        x: 428
+        y: 275
+        width: 72
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 16b9f42e9d91e7160800000000000000
+      internalID: 7025080892340018017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: small houses_13
+      rect:
+        serializedVersion: 2
+        x: 524
+        y: 275
+        width: 72
+        height: 101
+      alignment: 9
+      pivot: {x: 0.506379, y: 0.07786213}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fae701be0b12b6b20800000000000000
+      internalID: 3128631409880628911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: small houses_14
+      rect:
+        serializedVersion: 2
+        x: 620
+        y: 275
+        width: 72
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6deb4bea78feb9050800000000000000
+      internalID: 5808499510455090902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: small houses_15
+      rect:
+        serializedVersion: 2
+        x: 717
+        y: 275
+        width: 72
+        height: 101
+      alignment: 9
+      pivot: {x: 0.47971597, y: 0.079498895}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a6cf2215763d40aa0800000000000000
+      internalID: -6195594746658620310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: small houses_16
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 198
+        width: 30
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e682305c9957c0b90800000000000000
+      internalID: -7274309994814429074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: small houses_17
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 198
+        width: 30
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e79f7aad4f98e6870800000000000000
+      internalID: 8678025216722991486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: small houses_18
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 198
+        width: 30
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c3e7f68b17e3c6b20800000000000000
+      internalID: 3128944499262193212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: small houses_19
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 198
+        width: 30
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 02621e95c46fce3f0800000000000000
+      internalID: -870049820203473376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: small houses_20
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 198
+        width: 30
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 41f83d200ae1f9930800000000000000
+      internalID: 4152071054049906452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: small houses_21
+      rect:
+        serializedVersion: 2
+        x: 380
+        y: 147
+        width: 72
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b68f6a0fe8df23ac0800000000000000
+      internalID: -3876757538847917973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: small houses_22
+      rect:
+        serializedVersion: 2
+        x: 476
+        y: 147
+        width: 73
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 73e2aa763cbe3ef00800000000000000
+      internalID: 1145017954772594231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: small houses_23
+      rect:
+        serializedVersion: 2
+        x: 572
+        y: 147
+        width: 72
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b75dadb28cf70c10800000000000000
+      internalID: 2019860596357158839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: small houses_24
+      rect:
+        serializedVersion: 2
+        x: 668
+        y: 147
+        width: 72
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 989d8dc6e6c299bb0800000000000000
+      internalID: -4928859464396121719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: small houses_25
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 166
+        width: 32
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8016e6bc3c8807630800000000000000
+      internalID: 3922785649952710920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: small houses_26
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 166
+        width: 32
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a7b823675901728e0800000000000000
+      internalID: -1718386498699359366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: small houses_27
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 166
+        width: 32
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 058e98d07dff2d780800000000000000
+      internalID: -8659577834369849264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: small houses_28
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 166
+        width: 32
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 918771b6ccc9a4390800000000000000
+      internalID: -7833276200073594855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: small houses_29
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 166
+        width: 32
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 941da537d3c9d0500800000000000000
+      internalID: 364118932629147977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: small houses_30
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 83
+        width: 20
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 192c8657ef1ed5b40800000000000000
+      internalID: 5430745208686428817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: small houses_31
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 83
+        width: 20
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c5ca1fc68f79b1610800000000000000
+      internalID: 1593033986441063516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: small houses_32
+      rect:
+        serializedVersion: 2
+        x: 233
+        y: 83
+        width: 20
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1bf26840a28041140800000000000000
+      internalID: 4689382088557080497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: small houses_33
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 83
+        width: 20
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee070c928d4e82f10800000000000000
+      internalID: 2245296031308738798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: small houses_34
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 115
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ef32c9e2366fdad0800000000000000
+      internalID: -2675307284778565660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: small houses_35
+      rect:
+        serializedVersion: 2
+        x: 380
+        y: 35
+        width: 72
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cbee41b1ec0273640800000000000000
+      internalID: 5059548775963750076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: small houses_36
+      rect:
+        serializedVersion: 2
+        x: 476
+        y: 35
+        width: 72
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 749b2b33c92e19d40800000000000000
+      internalID: 5589497773053622599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: small houses_37
+      rect:
+        serializedVersion: 2
+        x: 572
+        y: 35
+        width: 72
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 76d66807f2cc2cc50800000000000000
+      internalID: 6684129301094624615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: small houses_38
+      rect:
+        serializedVersion: 2
+        x: 668
+        y: 35
+        width: 72
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c72d1befefec99b0800000000000000
+      internalID: -5071915266605242430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: eca26b763248c35468d250d84f576822
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      small houses_0: 8360822583929146134
+      small houses_1: 425523432762231699
+      small houses_10: -225117634861708226
+      small houses_11: -2163477927127046605
+      small houses_12: 7025080892340018017
+      small houses_13: 3128631409880628911
+      small houses_14: 5808499510455090902
+      small houses_15: -6195594746658620310
+      small houses_16: -7274309994814429074
+      small houses_17: 8678025216722991486
+      small houses_18: 3128944499262193212
+      small houses_19: -870049820203473376
+      small houses_2: 3496490640350925859
+      small houses_20: 4152071054049906452
+      small houses_21: -3876757538847917973
+      small houses_22: 1145017954772594231
+      small houses_23: 2019860596357158839
+      small houses_24: -4928859464396121719
+      small houses_25: 3922785649952710920
+      small houses_26: -1718386498699359366
+      small houses_27: -8659577834369849264
+      small houses_28: -7833276200073594855
+      small houses_29: 364118932629147977
+      small houses_3: -7313236153421629960
+      small houses_30: 5430745208686428817
+      small houses_31: 1593033986441063516
+      small houses_32: 4689382088557080497
+      small houses_33: 2245296031308738798
+      small houses_34: -2675307284778565660
+      small houses_35: 5059548775963750076
+      small houses_36: 5589497773053622599
+      small houses_37: 6684129301094624615
+      small houses_38: -5071915266605242430
+      small houses_4: -2274235966970486913
+      small houses_5: -4123274442598227585
+      small houses_6: 6772772143719941309
+      small houses_7: -137451844550421559
+      small houses_8: 3914145599174164737
+      small houses_9: -904552231627255837
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

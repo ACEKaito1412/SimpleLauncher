@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ae9a929ba619cb84bbd9e8e383db2e10, type: 3}
+  m_Name: Wheat_Seed
+  m_EditorClassIdentifier: 
+  ID: 8
+  Name: Wheat Seed
+  Type: 1
+  Description: Plant it to grow Wheats.
+  Icon: {fileID: 21300000, guid: cc8ce1035d8d0e04ab60d9e6e9aecf37, type: 3}
+  Sell_Price: 1
+  Buy_Price: 9
+  Sprites:
+  - spr_0: {fileID: 21300000, guid: cc8ce1035d8d0e04ab60d9e6e9aecf37, type: 3}
+    spr_1: {fileID: 21300000, guid: bf759be17186f174cb0440b83ce2b393, type: 3}
+    spr_2: {fileID: 21300000, guid: f3fae350915fb9a4c8a438dec2a28945, type: 3}
+    spr_3: {fileID: 21300000, guid: cd156d65582e59e4dbf5869f0688ce4d, type: 3}
+    spr_4: {fileID: 21300000, guid: 1eec856f48072714fa78cb12cc5a9e65, type: 3}
+    spr_5: {fileID: 21300000, guid: 898f86cbbb88947478a51060c53ab650, type: 3}
+  Duration: 15360
+  Plant_Scriptable: {fileID: 11400000, guid: cca20e7c69707d449b2177b7e87f416b, type: 2}
+  Quantity: 5

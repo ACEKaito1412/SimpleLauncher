@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 426ef50140db00e4ab5914c7373177ef, type: 3}
+  m_Name: Radish
+  m_EditorClassIdentifier: 
+  ID: 16
+  Name: Radish
+  Type: 0
+  Description: I heard the slime likes to ear vegetables.
+  Icon: {fileID: 21300000, guid: 7b4c8804c92a2ab46b4d74132cd0f068, type: 3}
+  Sell_Price: 1
+  Buy_Price: 8
+  Seed_Scriptable: {fileID: 11400000, guid: 8739c117f32a58049a870e64394fc60e, type: 2}
+  Quantity: 1
